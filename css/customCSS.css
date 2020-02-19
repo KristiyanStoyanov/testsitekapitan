@@ -1,0 +1,33 @@
+@media only screen and (max-width: 500px) {
+    
+   #KK_About{
+        font-size: 5px;
+   }
+}
+
+#NavMenu{
+    font-family: gavinfont;
+    font-size: 65px;
+    text-decoration: none;
+}
+#KK_About{
+    background-image: url("../images/KK_about.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body{
+    background-image: url("../images/main_background.jpg");
+    
+}
+
+@font-face{
+    font-family: "gavinfont";
+    src: url("../fonts/gavinfont.ttf");
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+
